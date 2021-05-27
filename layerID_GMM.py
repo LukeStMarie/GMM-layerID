@@ -383,19 +383,3 @@ args2 = {'img_dir': 'CropImageSetB',
         'master_cat_file': 'CropImageSetB/master_catalog_5.npz'}
 
 testing(**args2)
-
-
-
-
-# testing works on individual images, so to process a folder of images,
-# use a loop like the one below
-
-# img_dir = 'ImageSetB'
-
-# for filename in os.listdir(img_dir):
-#     if filename.endswith(".jpg"):
-#         path = os.path.join(img_dir, filename)
-#         args2 = {'img_file': path,
-#         'n_clusters': 5,
-#         'master_cat_file': 'CropImageSetB/master_catalog_5.npz'}
-#         testing(**args2)
