@@ -370,7 +370,7 @@ def testing(img_file, n_clusters, master_cat_file):
 
 args1 = {'img_dir': "CropImageSetB",
         'n_clusters': 5,
-        'out_file': 'CropImageSetC/master_catalog_5.npz'}
+        'out_file': 'CropImageSetB/master_catalog_5.npz'}
 
 training(**args1)
 
