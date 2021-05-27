@@ -366,11 +366,11 @@ def testing(img_file, n_clusters, master_cat_file):
 """ Example usage """
 
 # This runs training on images in a folder, creating a catalog that can
-# discern between 4 different layer thicknesses (including bare substrate)
+# discern between 5 different layer thicknesses (including bare substrate)
 
 args1 = {'img_dir': "CropImageSetB",
-        'n_clusters': 6,
-        'out_file': 'CropImageSetC/master_catalog_6.npz'}
+        'n_clusters': 5,
+        'out_file': 'CropImageSetC/master_catalog_5.npz'}
 
 training(**args1)
 
